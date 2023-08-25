@@ -10,7 +10,7 @@ const ImgSlider: React.FC = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 400,
+    speed: 300,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
