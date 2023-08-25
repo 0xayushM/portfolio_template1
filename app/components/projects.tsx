@@ -31,6 +31,11 @@ const Projects = () => {
                                 <Link className='link' href={project.videoUrl}>Video</Link>
                             )}
                             </div>
+                            <div>
+                            {project.deployedUrl && (
+                                <Link className='link' href={project.deployedUrl}>Demo</Link>
+                            )}
+                            </div>
                         </div>
                     </div>
                 </div>

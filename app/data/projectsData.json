@@ -8,7 +8,8 @@
             "description" : [
                 "A Defi Protocol that enables everyone to borrow with 0 collateral."
             ],
-            "alt": "project"
+            "alt" : "project",
+            "deployedUrl" : ""
         },
         {
             "name" : "PoW'rd",
@@ -17,7 +18,8 @@
             "description" : [
                 "A payroll management tool for web3 companies."
             ],
-            "alt" : "project"
+            "alt" : "project",
+            "deployedUrl" : ""
         },
         {
             "name" : "Certified-Cliché",
@@ -26,7 +28,8 @@
             "description" : [
                 "A platform to convert and securely transfer certificates as NFTs."
             ],
-            "alt" : "project"
+            "alt" : "project",
+            "deployedUrl" : ""
         },
         {
             "name" : "BUIDL_IRL",
@@ -35,7 +38,8 @@
             "description" : [
                 "An offline workshop series for developers to learn and build on the Polygon Network. "
             ],
-            "alt" : "project"
+            "alt" : "project",
+            "deployedUrl" : ""
         }
     ]
 }
