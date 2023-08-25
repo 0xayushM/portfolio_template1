@@ -1,0 +1,128 @@
+{
+    "heading":"Work Experience",
+    "data" : [
+        {
+            "organization" : "Polygon Labs",
+            "duration" : "April 2022 - Present",
+            "skills" : [
+                "Community Management",
+                "Public Speaking"
+            ],
+            "role":"Polygon Guild Mage",
+            "description" : [
+                "Co-Founded the community to nourish the Polygon ecosystem around the Jaipur region w/ workshops & meetups."
+            ],
+            "type" : ["Volunteer", "DevRel"]
+        },
+        {
+            "organization" : "Polygon Labs",
+            "duration" : "Feb 2022 - Present",
+            "skills" : [
+                "Public Speaking",
+                "Technical Writing"
+            ],
+            "role":"Polygon Advocate",
+            "description" : [
+                "Educating the community about the Polygon tools and solutions as Speaker & Mentor in events."
+            ],
+            "type" : ["Volunteer", "DevRel"]
+        },
+        {
+            "organization" : "The Graph India",
+            "duration" : "April 2023 - Present",
+            "skills" : [
+                "GraphQL",
+                "Solidity",
+                "Technical Writing"
+            ],
+            "role":"Technical Coordinator",
+            "description" : [
+                "Growing the ecosystem of The Graph Protocol in India w/ different dev programs & events."
+            ],
+            "type" : ["DevRel"]
+        },
+        {
+            "organization" : "Biconomy",
+            "duration" : "April 2023 - Present",
+            "skills" : [
+                "Solidity",
+                "TypeScript"
+            ],
+            "role":"Junior Blockchain Engineer",
+            "description" : [
+                "Integrating new chains and features in the Biconomy SDK, and improving docs."
+            ],
+            "type" : ["Dev"]
+        },
+        {
+            "organization" : "Hyperlane India",
+            "duration" : "March 2023 - Present",
+            "skills" : [
+                "Solidity",
+                "TypeScript"
+            ],
+            "role":"Developer",
+            "description" : [
+                "Deploying Hyperlane on new chains, and reviewing the docs."
+            ],
+            "type" : ["Dev"]
+        },
+        {
+            "organization" : "Phyllo",
+            "duration" : "April 2022 - Feb 2023",
+            "skills" : [
+                "Node.js",
+                "Express.js"
+            ],
+            "role":"SDE Intern",
+            "description" : [
+                "Built the indexers and API to provide Reputation data."
+            ],
+            "type" : ["Dev"]
+        },
+        {
+            "organization" : "Whrrl",
+            "duration" : "March 2022 - April 2022",
+            "skills" : [
+                "Solidity",
+                "Ethers.js",
+                "JavaScript"
+            ],
+            "role":"Blockchain Developer Intern",
+            "description" : [
+                "Integrated Wallet Connect and Built and integrated several contracts"
+            ],
+            "type" : ["Dev"]
+        },
+        {
+            "organization" : "Teksna",
+            "duration" : "Nov 2021",
+            "skills" : [
+                "Flutter",
+                "Firebase",
+                "Node.js",
+                "PostgreSQL"
+            ],
+            "role":"Mobile Application Developer",
+            "description" : [
+                "Built the database and server for management of the Real Time feed from the hardware device.",
+                "Built 2 screens for showing data."
+            ],
+            "type" : ["Dev"]
+        },
+        {
+            "organization" : "EduTekZila",
+            "duration" : "Oct 2021 - Nov 2021",
+            "skills" : [
+                "Flutter",
+                "Firebase"
+            ],
+            "role":"SDE Intern",
+            "description" : [
+                "Built the Architecture of the App.",
+                "Built the 10+ Screens integrated with database."
+            ],
+            "type" : ["Dev"]
+        }
+    ]
+}

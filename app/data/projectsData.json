@@ -1,0 +1,41 @@
+{
+    "heading":"Projects",
+    "data" : [
+        {
+            "name" : "Stark Protcol",
+            "videoUrl" : "https://youtu.be/VjRA1NecEEE",
+            "githubUrl" : "https://github.com/megabyte0x/stark-protocol.git",
+            "description" : [
+                "A Defi Protocol that enables everyone to borrow with 0 collateral."
+            ],
+            "alt": "project"
+        },
+        {
+            "name" : "PoW'rd",
+            "videoUrl" : "",
+            "githubUrl" : "https://github.com/megabyte0x/PoW-rd.git",
+            "description" : [
+                "A payroll management tool for web3 companies."
+            ],
+            "alt" : "project"
+        },
+        {
+            "name" : "Certified-Cliché",
+            "videoUrl" : "https://youtu.be/rJpA7ulK2rQ",
+            "githubUrl" : "https://github.com/megabyte0x/certified_cliche.git",
+            "description" : [
+                "A platform to convert and securely transfer certificates as NFTs."
+            ],
+            "alt" : "project"
+        },
+        {
+            "name" : "BUIDL_IRL",
+            "videoUrl" : "",
+            "githubUrl" : "https://github.com/PolygonJaipur/BUIDL-IRL",
+            "description" : [
+                "An offline workshop series for developers to learn and build on the Polygon Network. "
+            ],
+            "alt" : "project"
+        }
+    ]
+}

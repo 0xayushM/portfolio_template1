@@ -1,0 +1,19 @@
+{
+    "greeting": "gm 👋",
+    "profileImage": {
+      "src": "/assets/profile.png",
+      "height": 300,
+      "width": 300,
+      "alt": "profile image"
+    },
+    "description": {
+      "content": "I'm a <highlight>Blockchain Developer</highlight> and <highlight>Technical Writer</highlight>.",
+      "bulletedContent": [
+        "👨🏻‍💻 Junior Blockchain Engineer <highlight>@Biconomy</highlight>",
+        "🎉 Developer Advocate<highlight>@Polygon </highlight>",
+        "👨‍🏫 Workshops <highlight>@DeveloperDAO</highlight>",
+        "📝 Provide <highlight>Technical Documentation</highlight> consulting"
+      ]
+    }
+  }
+  

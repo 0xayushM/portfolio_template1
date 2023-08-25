@@ -1,0 +1,375 @@
+@font-face {
+  font-family: 'minecraft';
+  src: url('../public/assets/Minecraftia.woff') format('woff'),
+       url('../public/assets/Minecraftia.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.container {
+  background-image: url(../public/assets/background.jpeg);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative; 
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.section {
+  width: 100%;
+  padding: 20px 200px 40px 200px; 
+  /* padding-bottom: 40px; */
+}
+
+.heading, .quote {
+  display: flex;
+  color: aliceblue;
+  font-family: minecraft;
+  font-size: xx-large;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  padding-top: 20px;
+}
+
+.quote {
+  font-size: x-large;
+  padding-top: 40px;
+}
+
+.quote_bar {
+  font-family: monospace;
+  font-size: 80px;
+  color: #FBBF64;
+  padding: 0px 20px;
+}
+
+.section_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: between;
+  gap:60px;
+  background-color: inherit;
+  padding: 40px;
+  border-style: dashed;
+  border-width: thick;
+  border-color: aliceblue;
+  border-radius: 2px;
+}
+
+.project_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  place-content: center;
+  place-items: center;
+}
+
+.project_card {
+  width: 100%;
+  padding: 10px;
+  border-style: dashed;
+  border-width: medium;
+  border-color:aliceblue;
+  border-radius: 2px;
+}
+
+.sub_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap:20px;
+  width: 100%;
+  border-style: dashed;
+  border-width:medium;
+  place-items: center;
+  border-color: aliceblue;
+  border-radius: 2px;
+  padding:20px;
+}
+
+.icon_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:32px;
+  width: 200px;
+  height: 130px;
+  background-color: inherit;
+  padding: 0px;
+  
+}
+
+.content {
+  color:rgba(240, 248, 255);
+  font-family: monospace;
+  font-size: x-large;
+}
+
+.description_box {
+  min-height: 250px;
+  max-width: max-content;
+  display: flex;
+  padding: 0px;
+  align-items: center;
+  flex-direction: column;
+  justify-content:space-between;
+}
+
+.description, .project_description {
+  font-family: monospace;
+  font-size: large;
+}
+.project_description {
+  text-align: left;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width:90%;
+  padding-bottom: 20px;
+  justify-content: space-between;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.link {
+  background-color: rgb(240, 248, 255);
+  color: black;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.skills_container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  gap:20px;
+}
+
+.name, .project_name {
+  color: #FBBF64;
+  font-family: 'minecraft';
+  font-size: medium;
+  text-align: center;
+}
+
+
+span {
+  font-weight: bolder;
+  color: #FBBF64;
+}
+
+hr {
+  border-style: dashed;
+}
+
+.project_card {
+  color:aliceblue;
+}
+
+
+.duration {
+  font-family: monospace;
+  color: white;
+}
+
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap:20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.filter-bar button {
+  background-color: white;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: larger;
+}
+.filter-bar button.active {
+  background-color: #FBBF64;
+}
+
+.experience_container {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap:20px;
+  background-color: inherit;
+  /* padding: 40px; */
+  padding-top: 40px;
+  border-radius: 2px;
+}
+
+.experience_content {
+  gap:20px;
+  width: 100%;
+  border-style: dashed;
+  border-width:medium;
+  border-color: aliceblue;
+  border-radius: 2px;
+  padding: 20px;
+}
+
+.title_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.experience_name {
+  color: #FBBF64;
+  font-family: 'minecraft';
+  font-size: large;
+}
+
+.role {
+  color: white;
+  font-family: monospace;
+  font-size: large;
+  padding: 5px 0px;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.work_skill {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: black;
+  gap:10px;
+  padding: 10px 0px 20px 0px;
+}
+.work_skill_name {
+  background-color: rgba(240, 248, 255, 0.912);
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.work_description {
+  color: aliceblue;
+  font-family : monospace;
+  font-size: large;
+  font-weight: lighter;
+}
+
+ul {
+  list-style-type: square;
+  padding: 0px 10px;
+}
+
+.knowMore_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.knowMore {
+  background-color: aliceblue;
+  color: black;
+  font-family: 'minecraft';
+  padding: 10px 15px 10px 15px;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+  .container {
+    padding: 0;
+  }
+  .section {
+    padding: 20px 30px;
+    background-color: rgba(0,0,0,0);
+  }
+  .skills_container {
+    justify-content: center;
+    flex-direction: column;
+    gap:20px;
+  }
+  .section_container, .icon_container,.sub_container {
+    flex-direction: column;
+    gap:30px;
+    border: none;
+    padding: 0;
+  }
+  .sub_container {
+    gap:0px;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    flex-wrap: wrap;
+  }
+  .project_container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .description_box {
+    min-height: 200px;
+  }
+
+  .project_description {
+    font-size: large;
+  }
+  .link {
+    padding: 5px;
+  }
+  .image {
+    height: 50px;
+    width: 50px;
+  }
+  .nodejs {
+    height: 60px;
+  }
+  .name {
+    font-size: small;
+  }
+  .project_name {
+    font-size: medium;
+  }
+  
+  .icon_container {
+    min-width: none;
+    gap:20px;
+    height: 150px;
+    width: 150px;
+  }
+  .content {
+    font-size: large;
+  }
+  .quote {
+    font-size: medium;
+  }
+  .experience_container {
+    grid-template-columns: repeat(1,1fr);
+  }
+  .title_box {
+    flex-direction: column;
+    justify-content: none;
+    align-items: normal;
+  }
+}
