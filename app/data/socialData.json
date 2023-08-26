@@ -1,0 +1,26 @@
+[
+  {
+    "icon": "FaLinkedin",
+    "profile": "LinkedIn Profile",
+    "profileLink": "https://www.linkedin.com/in/yourprofile",
+    "component": "FaLinkedin"
+  },
+  {
+    "icon": "FaTwitter",
+    "profile": "Twitter Profile",
+    "profileLink": "https://twitter.com/yourprofile",
+    "component": "FaTwitter"
+  },
+  {
+    "icon": "FaGithub",
+    "profile": "GitHub Profile",
+    "profileLink": "https://github.com/yourprofile",
+    "component": "FaGithub"
+  },
+  {
+    "icon": "FaEnvelope",
+    "profile": "Email",
+    "profileLink": "mailto:youremail@example.com",
+    "component": "FaEnvelope"
+  }
+]

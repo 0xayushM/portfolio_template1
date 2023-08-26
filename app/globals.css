@@ -31,10 +31,14 @@ body {
   padding: 40px;
 }
 
-.section {
+.section, .car_section {
   width: 100%;
   padding: 20px 200px 40px 200px; 
-  /* padding-bottom: 40px; */
+}
+.car_section {
+  width: 100%;
+  /* padding: 20px 250px 40px 250px; */
+  overflow: hidden;
 }
 
 .heading, .quote {
@@ -174,7 +178,6 @@ body {
   text-align: center;
 }
 
-
 span {
   font-weight: bolder;
   color: #FBBF64;
@@ -297,14 +300,40 @@ ul {
   padding: 10px 15px 10px 15px;
 }
 
+.social-navbar {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: none;
+  padding: 20px;
+  z-index:10;
+}
+
+.social-navbar a {
+  margin-bottom: 10px;
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.social-navbar a:hover {
+  color: #FBBF64;
+}
+
+
 @media only screen and (max-width: 1000px) {
   .container {
     padding: 0;
   }
-  .section {
+  .section, .car_section {
     padding: 20px 30px;
     background-color: rgba(0,0,0,0);
   }
+
   .skills_container {
     justify-content: center;
     flex-direction: column;
@@ -368,5 +397,8 @@ ul {
     flex-direction: column;
     justify-content: none;
     align-items: normal;
+  }
+  .social-navbar {
+    display: none;
   }
 }
