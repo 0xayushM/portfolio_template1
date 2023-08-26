@@ -18,6 +18,8 @@ const ImgSlider: React.FC = () => {
 
   return (
     <div className='section'>
+      <div className='car_section'>
+      <div className='carousel_section'>
       <Carousel {...settings}>
         {carouselData.map((imageUrl, index) => (
           <Wrap key={index}>
@@ -30,6 +32,8 @@ const ImgSlider: React.FC = () => {
         ))}
       </Carousel>
     </div>
+    </div>
+    </div>
   );
 };
 
@@ -38,8 +42,8 @@ const Carousel = styled(Slider)`
   & > button {
     opacity: 0;
     height: 100%;
-    width: 5vw;
-    z-index: 1;
+    width: 1vw;
+    z-index: -1;
 
     &:hover {
       opacity: 1;
@@ -64,6 +68,7 @@ const Carousel = styled(Slider)`
   .slick-next {
     right: -75px;
   }
+  
 `;
 
 const Wrap = styled.div`
@@ -81,7 +86,7 @@ const Wrap = styled.div`
     position: relative;
     width: 100%;
     border: 20px solid rgba(0, 0, 0, 0);
-    height: 60vh; /* Adjust the desired height */
+    height: 60vh; 
   }
 
   &:hover {
