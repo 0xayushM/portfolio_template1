@@ -6,9 +6,14 @@
   font-style: normal;
 }
 
+:root {
+  --themeColor : #FBBF64;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 * {
   margin: 0;
@@ -60,7 +65,7 @@ body {
 .quote_bar {
   font-family: monospace;
   font-size: 80px;
-  color: #FBBF64;
+  color: var(--themeColor);
   padding: 0px 20px;
 }
 
@@ -172,7 +177,7 @@ body {
 }
 
 .name, .project_name {
-  color: #FBBF64;
+  color: var(--themeColor);
   font-family: 'minecraft';
   font-size: medium;
   text-align: center;
@@ -180,7 +185,7 @@ body {
 
 span {
   font-weight: bolder;
-  color: #FBBF64;
+  color: var(--themeColor);
 }
 
 hr {
@@ -214,7 +219,7 @@ hr {
   font-size: larger;
 }
 .filter-bar button.active {
-  background-color: #FBBF64;
+  background-color: var(--themeColor);
 }
 
 .experience_container {
@@ -244,7 +249,7 @@ hr {
 }
 
 .experience_name {
-  color: #FBBF64;
+  color: var(--themeColor);
   font-family: 'minecraft';
   font-size: large;
 }
@@ -321,7 +326,7 @@ ul {
 }
 
 .social-navbar a:hover {
-  color: #FBBF64;
+  color: var(--themeColor);
 }
 
 
