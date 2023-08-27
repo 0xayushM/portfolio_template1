@@ -4,29 +4,29 @@
     {
       "name": "TypeScript",
       "image": "/assets/typescript.png",
-      "height": 45,
-      "width": 45,
+      "height": 35,
+      "width": 35,
       "alt": "typescript"
     },
     {
       "name": "Solidity",
       "image": "/assets/solidity.png",
-      "height": 45,
-      "width": 45,
+      "height": 35,
+      "width": 35,
       "alt": "solidity"
     },
     {
       "name": "Nodejs",
       "image": "/assets/nodejs.png",
-      "height": 60,
-      "width": 45,
+      "height": 35,
+      "width": 35,
       "alt": "Node.js"
     },
     {
       "name": "Technical Writing",
       "image": "/assets/technical.png",
-      "height": 45,
-      "width": 45,
+      "height": 35,
+      "width": 35,
       "alt": "technical-writing"
     }
   ]
