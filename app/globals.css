@@ -120,14 +120,14 @@ body {
 .sub_container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap:20px;
+  gap:10px;
   width: 100%;
-  border-style: dashed;
-  border-width:medium;
+  /* border-style: dashed;
+  border-width:medium; */
   place-items: center;
   border-color: aliceblue;
   border-radius: 2px;
-  padding:20px;
+  padding:10px;
 }
 
 .icon_container {
@@ -137,7 +137,7 @@ body {
   justify-content: center;
   gap:20px;
   width: 200px;
-  height: 130px;
+  height: 100px;
   background-color: inherit;
   padding: 0px;
   
