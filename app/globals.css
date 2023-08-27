@@ -8,6 +8,7 @@
 
 :root {
   --themeColor : #FBBF64;
+  --themeColorText : black;
 }
 
 @tailwind base;
@@ -315,10 +316,11 @@ ul {
 }
 
 .knowMore {
-  background-color: aliceblue;
-  color: black;
+  background-color: var(--themeColor);
+  color: var(--themeColorText);
   font-family: 'minecraft';
   padding: 10px 15px 10px 15px;
+  width: 70%;
 }
 
 .social-navbar {
@@ -352,9 +354,12 @@ ul {
   bottom: 20px;
   right: 20px;
   z-index: 9999;
-  background-color: var(--themeColor);
+  background-color: black;
   color: white;
   border-radius: 50%;
+  border: 5px white;
+  border-width: thick;
+  border-style: dashed;
   padding: 15px;
   cursor: pointer;
   transition: background-color 0.3s;
