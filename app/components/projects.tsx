@@ -11,7 +11,7 @@ const Projects = () => {
       </h1>
       <div className='project_container'>
             {projectsData.data.map(project => (
-                <div className='project_card'>
+                <div className='project_card' key={project.id}>
                     <h1 className='project_name pb-2'>
                         {project.name}
                     </h1>

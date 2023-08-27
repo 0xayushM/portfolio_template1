@@ -30,8 +30,8 @@ const WorkEx = () => {
             <hr />
             <div className="role">{item.role}</div>
             <div className="work_skill">
-            {item.skills.map(skill => (
-                <div className="work_skill_name">{skill}
+            {item.skills.map((skill,index) => (
+                <div className="work_skill_name" key= {index}>{skill}
                     </div>
             ))}
             </div>

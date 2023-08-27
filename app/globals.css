@@ -419,10 +419,6 @@ ul {
     place-items: center;
     flex-wrap: wrap;
   }
-  .project_container {
-    /* flex-direction: column;
-    flex-wrap: wrap; */
-  }
   .project_card {
     min-width: 90%;
   }
