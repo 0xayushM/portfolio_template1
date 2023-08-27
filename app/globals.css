@@ -36,13 +36,13 @@ body {
   padding: 40px;
 }
 
-.section, .car_section {
+.section {
   width: 100%;
   padding: 20px 200px 40px 200px; 
 }
 .car_section {
   width: 100%;
-  /* padding: 20px 250px 40px 250px; */
+  padding: 20px 100px 40px 100px;
   overflow: hidden;
 }
 
