@@ -329,10 +329,57 @@ ul {
   color: var(--themeColor);
 }
 
+/* floating-button.css */
+.floating-button {
+  position: fixed;
+  display: none;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  background-color: var(--themeColor);
+  color: white;
+  border-radius: 50%;
+  padding: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
 
-@media only screen and (max-width: 1000px) {
+.floating-button.active {
+  background-color: #e74c3c;
+}
+
+/* social-media-icons.css */
+.social-media-icons {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  z-index: 9998;
+  background-color: none;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.social-media-icons a {
+  color: white;
+  transition: color 0.3s;
+}
+
+.social-media-icons a:hover {
+  color: #e74c3c;
+}
+
+
+
+@media only screen and (max-width: 600px) {
   .container {
     padding: 0;
+  }
+  .floating-button {
+    display:block;
   }
   .section, .car_section {
     padding: 20px 30px;
