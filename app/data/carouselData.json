@@ -1,7 +1,7 @@
 {
         "images": [
-                "/assets/carousel/image1.jpg",
-                "/assets/carousel/image2.jpg",
-                "/assets/carousel/image3.jpg"
+                "/assets/image1.jpg",
+                "/assets/image2.jpg",
+                "/assets/image3.jpg"
         ]
 }
