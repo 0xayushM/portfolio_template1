@@ -84,16 +84,27 @@ body {
 }
 
 .project_container {
-  /* display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-column-gap: 20px;
-  grid-row-gap: 20px;
-  place-content: center;
-  place-items: center; */
   display: flex;
   gap:20px;
   flex-wrap: nowrap;
   overflow-x: scroll;
+  padding: 20px 0px;
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: white transparent; /* Firefox */
+  &::-webkit-scrollbar {
+    height: 4px;
+  }
+  -ms-overflow-style: none; /* IE 10+ */
+  &::-webkit-scrollbar {
+    width: 1px; /* Width of scrollbar */
+  }
+  &::-webkit-scrollbar-track {
+    background-color: transparent; /* Track color */
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: white; /* Thumb color */
+    border-radius: 8px; /* Rounded corners */
+  }
 }
 
 .project_card {
@@ -409,8 +420,11 @@ ul {
     flex-wrap: wrap;
   }
   .project_container {
-    flex-direction: column;
-    flex-wrap: wrap;
+    /* flex-direction: column;
+    flex-wrap: wrap; */
+  }
+  .project_card {
+    min-width: 90%;
   }
   .description_box {
     min-height: 200px;
