@@ -40,6 +40,26 @@
             ],
             "alt" : "project",
             "deployedUrl" : ""
+        },
+        {
+            "name" : "BUIDL_IRL",
+            "videoUrl" : "",
+            "githubUrl" : "https://github.com/PolygonJaipur/BUIDL-IRL",
+            "description" : [
+                "An offline workshop series for developers to learn and build on the Polygon Network. "
+            ],
+            "alt" : "project",
+            "deployedUrl" : ""
+        },
+        {
+            "name" : "BUIDL_IRL",
+            "videoUrl" : "",
+            "githubUrl" : "https://github.com/PolygonJaipur/BUIDL-IRL",
+            "description" : [
+                "An offline workshop series for developers to learn and build on the Polygon Network. "
+            ],
+            "alt" : "project",
+            "deployedUrl" : ""
         }
     ]
 }
