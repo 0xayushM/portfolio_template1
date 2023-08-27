@@ -58,7 +58,14 @@ Wondering how to tailor your portfolio's content? Let's demystify it with a groo
 - **Work Experience Section**: Share experiences in `workExData.json`
 - **Carousel**: Spotlight your images in `carouselData.json`
 - **Side Navbar**: Connect on socials via `socialData.json`
+- **Highlight Color and Background image**: Change the color of the **highlighted content** or change the **background image** in `globals.css` 
 
+    ```
+    :root {
+        --themeColor : #FBBF64;
+        --themeColorText : black;
+        --backgroundImage : url(address of the file)
+    }
 Turn up your creative vibes by mixing and matching content with these JSON files. This modular approach makes customizing your portfolio a breeze.
 
 ## Contribute 🤝
