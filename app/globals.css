@@ -84,16 +84,21 @@ body {
 }
 
 .project_container {
-  display: grid;
+  /* display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 20px;
   grid-row-gap: 20px;
   place-content: center;
-  place-items: center;
+  place-items: center; */
+  display: flex;
+  gap:20px;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
 }
 
 .project_card {
-  width: 100%;
+  /* width: 100%; */
+  min-width: 23.4%;
   padding: 10px;
   border-style: dashed;
   border-width: medium;
@@ -404,7 +409,8 @@ ul {
     flex-wrap: wrap;
   }
   .project_container {
-    grid-template-columns: repeat(1, 1fr);
+    flex-direction: column;
+    flex-wrap: wrap;
   }
   .description_box {
     min-height: 200px;
