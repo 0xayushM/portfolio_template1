@@ -2,6 +2,7 @@ import React from 'react';
 import { IconContext } from 'react-icons';
 import socialMediaData from '../data/socialData.json'; 
 import * as ReactIcons from 'react-icons/fa';
+import Link from 'next/link';
 
 
 const SocialMediaIcons = () => {
@@ -12,11 +13,11 @@ const SocialMediaIcons = () => {
         
         if (IconComponent) {
           return (
-            <a key={index} href={item.profileLink} target="_blank" rel="noopener noreferrer">
+            <Link key={index} href={item.profileLink} target="_blank" rel="noopener noreferrer">
               <IconContext.Provider value={{ size: '2em' }}>
                 <IconComponent />
               </IconContext.Provider>
-            </a>
+            </Link>
           );
         }
     })}

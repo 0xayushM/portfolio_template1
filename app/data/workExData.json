@@ -2,127 +2,90 @@
     "heading":"Work Experience",
     "data" : [
         {
-            "organization" : "Polygon Labs",
-            "duration" : "April 2022 - Present",
+            "organization" : "Organization type1,2",
+            "duration" : "month year - month year",
             "skills" : [
-                "Community Management",
-                "Public Speaking"
+                "Skill1",
+                "Skill2"
             ],
-            "role":"Polygon Guild Mage",
+            "role":"Role in the company",
             "description" : [
-                "Co-Founded the community to nourish the Polygon ecosystem around the Jaipur region w/ workshops & meetups."
+                "Description about the work during your internship."
             ],
-            "type" : ["Volunteer", "DevRel"]
+            "type" : ["type1", "type2"]
         },
         {
-            "organization" : "Polygon Labs",
-            "duration" : "Feb 2022 - Present",
+            "organization" : "Organization type1,3",
+            "duration" : "month year - month year",
             "skills" : [
-                "Public Speaking",
-                "Technical Writing"
+                "Skill1",
+                "Skill2",
+                "Skill3",
+                "Skill4",
+                "Skill5",
+                "Skill6"
             ],
-            "role":"Polygon Advocate",
+            "role":"Role in the company",
             "description" : [
-                "Educating the community about the Polygon tools and solutions as Speaker & Mentor in events."
+                "Description about the work during your internship."
             ],
-            "type" : ["Volunteer", "DevRel"]
+            "type" : ["type1", "type3"]
         },
         {
-            "organization" : "The Graph India",
-            "duration" : "April 2023 - Present",
+            "organization" : "Organization type3",
+            "duration" : "month year - month year",
             "skills" : [
-                "GraphQL",
-                "Solidity",
-                "Technical Writing"
+                "Skill1",
+                "Skill2"
             ],
-            "role":"Developer Success",
+            "role":"Role in the company",
             "description" : [
-                "Growing the ecosystem of The Graph Protocol in India w/ different dev programs & events."
+                "Description about the work during your internship."
             ],
-            "type" : ["DevRel"]
+            "type" : ["type3"]
         },
         {
-            "organization" : "Biconomy",
-            "duration" : "April 2023 - Present",
+            "organization" : "Organization type2,4",
+            "duration" : "month year - month year",
             "skills" : [
-                "Solidity",
-                "TypeScript"
+                "Skill1",
+                "Skill2",
+                "Skill3",
+                "Skill4"
             ],
-            "role":"Junior Blockchain Engineer",
+            "role":"Role in the company",
             "description" : [
-                "Integrating new chains and features in the Biconomy SDK, and improving docs."
+                "Description about the work during your internship."
             ],
-            "type" : ["Dev"]
+            "type" : ["type2", "type4"]
         },
         {
-            "organization" : "Hyperlane India",
-            "duration" : "March 2023 - Present",
+            "organization" : "Organization type1",
+            "duration" : "month year - month year",
             "skills" : [
-                "Solidity",
-                "TypeScript"
+                "Skill1",
+                "Skill2"
             ],
-            "role":"Developer",
+            "role":"Role in the company",
             "description" : [
-                "Deploying Hyperlane on new chains, and reviewing the docs."
+                "Description about the work during your internship."
             ],
-            "type" : ["Dev"]
+            "type" : ["type1"]
         },
         {
-            "organization" : "Phyllo",
-            "duration" : "April 2022 - Feb 2023",
+            "organization" : "Organization type3,4",
+            "duration" : "month year - month year",
             "skills" : [
-                "Node.js",
-                "Express.js"
+                "Skill1",
+                "Skill2",
+                "Skill3",
+                "Skill4"
             ],
-            "role":"SDE Intern",
+            "role":"Role in the company",
             "description" : [
-                "Built the indexers and API to provide Reputation data."
+                "Description about the work during your internship."
             ],
-            "type" : ["Dev"]
-        },
-        {
-            "organization" : "Whrrl",
-            "duration" : "March 2022 - April 2022",
-            "skills" : [
-                "Solidity",
-                "Ethers.js",
-                "JavaScript"
-            ],
-            "role":"Blockchain Developer Intern",
-            "description" : [
-                "Integrated Wallet Connect and Built and integrated several contracts"
-            ],
-            "type" : ["Dev"]
-        },
-        {
-            "organization" : "Teksna",
-            "duration" : "Nov 2021",
-            "skills" : [
-                "Flutter",
-                "Firebase",
-                "Node.js",
-                "PostgreSQL"
-            ],
-            "role":"Mobile Application Developer",
-            "description" : [
-                "Built the database and server for management of the Real Time feed from the hardware device.",
-                "Built 2 screens for showing data."
-            ],
-            "type" : ["Dev"]
-        },
-        {
-            "organization" : "EduTekZila",
-            "duration" : "Oct 2021 - Nov 2021",
-            "skills" : [
-                "Flutter",
-                "Firebase"
-            ],
-            "role":"SDE Intern",
-            "description" : [
-                "Built the Architecture of the App.",
-                "Built the 10+ Screens integrated with database."
-            ],
-            "type" : ["Dev"]
+            "type" : ["type4", "type3"]
         }
     ]
 }

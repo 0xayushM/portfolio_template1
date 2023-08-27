@@ -1,7 +1,9 @@
 {
         "images": [
-                "/assets/image1.jpg",
-                "/assets/image2.jpg",
-                "/assets/image3.jpg"
+                "/assets/image1.jpeg",
+                "/assets/image2.jpeg",
+                "/assets/image3.jpeg",
+                "/assets/image4.jpeg",
+                "/assets/image5.jpeg"
         ]
 }

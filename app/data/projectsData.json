@@ -2,48 +2,61 @@
     "heading":"Projects",
     "data" : [
         {
-            "name" : "Stark Protcol",
-            "videoUrl" : "https://youtu.be/VjRA1NecEEE",
-            "githubUrl" : "https://github.com/megabyte0x/stark-protocol.git",
+            "name" : "name",
+            "videoUrl" : "https://youtu.be/",
+            "githubUrl" : "https://github.com/0xayushM",
             "description" : [
-                "A Defi Protocol that enables everyone to borrow with 0 collateral."
+                "Short description about your project",
+                "Can also add in points"
             ],
             "alt" : "project",
             "id" : "1",
-            "deployedUrl" : ""
+            "deployedUrl" : "https://github.com/0xayushM"
         },
         {
-            "name" : "PoW'rd",
-            "videoUrl" : "",
-            "githubUrl" : "https://github.com/megabyte0x/PoW-rd.git",
+            "name" : "name",
+            "videoUrl" : "https://youtu.be/",
+            "githubUrl" : "https://github.com/0xayushM",
             "description" : [
-                "A payroll management tool for web3 companies."
+                "Short description about your project",
+                "Can also add in points"
             ],
             "alt" : "project",
-            "id" : "2",
-            "deployedUrl" : ""
-        },
-        {
-            "name" : "Certified-Cliché",
-            "videoUrl" : "https://youtu.be/rJpA7ulK2rQ",
-            "githubUrl" : "https://github.com/megabyte0x/certified_cliche.git",
+            "id" : "1",
+            "deployedUrl" : "https://github.com/0xayushM"
+        },{
+            "name" : "name",
+            "videoUrl" : "https://youtu.be/",
+            "githubUrl" : "https://github.com/0xayushM",
             "description" : [
-                "A platform to convert and securely transfer certificates as NFTs."
+                "Short description about your project",
+                "Can also add in points"
             ],
             "alt" : "project",
-            "id" : "3",
-            "deployedUrl" : ""
-        },
-        {
-            "name" : "BUIDL_IRL",
-            "videoUrl" : "",
-            "githubUrl" : "https://github.com/PolygonJaipur/BUIDL-IRL",
+            "id" : "1",
+            "deployedUrl" : "https://github.com/0xayushM"
+        },{
+            "name" : "name",
+            "videoUrl" : "https://youtu.be/",
+            "githubUrl" : "https://github.com/0xayushM",
             "description" : [
-                "An offline workshop series for developers to learn and build on the Polygon Network. "
+                "Short description about your project",
+                "Can also add in points"
             ],
             "alt" : "project",
-            "id" : "4",
-            "deployedUrl" : ""
+            "id" : "1",
+            "deployedUrl" : "https://github.com/0xayushM"
+        },{
+            "name" : "name",
+            "videoUrl" : "https://youtu.be/",
+            "githubUrl" : "https://github.com/0xayushM",
+            "description" : [
+                "Short description about your project",
+                "Can also add in points"
+            ],
+            "alt" : "project",
+            "id" : "1",
+            "deployedUrl" : "https://github.com/0xayushM"
         }
     ]
 }

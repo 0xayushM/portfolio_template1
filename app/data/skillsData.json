@@ -9,11 +9,18 @@
       "alt": "typescript"
     },
     {
-      "name": "Solidity",
-      "image": "/assets/solidity.png",
+      "name": "React",
+      "image": "/assets/react.png",
       "height": 35,
       "width": 35,
-      "alt": "solidity"
+      "alt": "react"
+    },
+    {
+      "name": "Next.js",
+      "image": "/assets/nextjs.png",
+      "height": 35,
+      "width": 35,
+      "alt": "next.js"
     },
     {
       "name": "Nodejs",
@@ -23,11 +30,11 @@
       "alt": "Node.js"
     },
     {
-      "name": "Technical Writing",
-      "image": "/assets/technical.png",
+      "name": "Digital Artist",
+      "image": "/assets/color-palette.png",
       "height": 35,
       "width": 35,
-      "alt": "technical-writing"
+      "alt": "Digital Artist"
     }
   ]
 }
