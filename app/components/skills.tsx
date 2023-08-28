@@ -4,7 +4,7 @@ import skillsData from '../data/skillsData.json'; // Adjust the path based on yo
 
 const Skills = () => {
     return (
-        <div className="section">
+        <div className="section scroll_section">
             <h1 className="heading">{skillsData.heading}</h1>
             <div className="skills_container">
                 <div className="sub_container">

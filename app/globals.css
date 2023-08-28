@@ -36,6 +36,13 @@ body {
   max-width: 100%;
   margin: 0 auto;
   padding: 40px;
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+section {
+  scroll-snap-align: start;
+  height: 100vh;
 }
 
 .section {
@@ -423,6 +430,12 @@ ul {
 @media only screen and (max-width: 600px) {
   .container {
     padding: 0;
+    overflow-y: scroll;
+    scroll-snap-type: none;
+    scroll-behavior: smooth;
+  }
+  section {
+    scroll-snap-align: none;
   }
   .floating-button {
     display:block;
