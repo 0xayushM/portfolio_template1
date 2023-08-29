@@ -2,7 +2,7 @@
     "heading":"Work Experience",
     "data" : [
         {
-            "organization" : "Organization type1,2",
+            "organization" : "Org 1,2",
             "duration" : "month year - month year",
             "skills" : [
                 "Skill1",
@@ -15,24 +15,28 @@
             "type" : ["type1", "type2"]
         },
         {
-            "organization" : "Organization type1,3",
+            "organization" : "Org 1,3",
             "duration" : "month year - month year",
             "skills" : [
                 "Skill1",
                 "Skill2",
                 "Skill3",
                 "Skill4",
-                "Skill5",
-                "Skill6"
+                "Skill5"
             ],
             "role":"Role in the company",
             "description" : [
+                "Description about the work during your internship.",
+                "Description about the work during your internship.",
+                "Description about the work during your internship.",
+                "Description about the work during your internship.",
+                "Description about the work during your internship.",
                 "Description about the work during your internship."
             ],
             "type" : ["type1", "type3"]
         },
         {
-            "organization" : "Organization type3",
+            "organization" : "Org 3",
             "duration" : "month year - month year",
             "skills" : [
                 "Skill1",
@@ -45,7 +49,7 @@
             "type" : ["type3"]
         },
         {
-            "organization" : "Organization type2,4",
+            "organization" : "Org 2,4",
             "duration" : "month year - month year",
             "skills" : [
                 "Skill1",
@@ -60,7 +64,7 @@
             "type" : ["type2", "type4"]
         },
         {
-            "organization" : "Organization type1",
+            "organization" : "Org 1",
             "duration" : "month year - month year",
             "skills" : [
                 "Skill1",
@@ -73,7 +77,7 @@
             "type" : ["type1"]
         },
         {
-            "organization" : "Organization type3,4",
+            "organization" : "Org 3,4",
             "duration" : "month year - month year",
             "skills" : [
                 "Skill1",

@@ -16,7 +16,7 @@ const Home: React.FC = () => {
       <div className='floating_button'>
         <FloatingButton />
       </div>
-      <section>
+      <section id='profile'>
         <Profile />
         <Quote />
       </section>

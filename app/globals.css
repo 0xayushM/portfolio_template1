@@ -20,6 +20,7 @@
 * {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -37,17 +38,21 @@ body {
   margin: 0 auto;
   padding: 40px;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
 }
 section {
   scroll-snap-align: start;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .section {
   width: 100%;
-  padding: 20px 200px 40px 200px; 
+  padding: 40px 200px 40px 200px; 
 }
 .car_section {
   width: 100%;
@@ -234,6 +239,7 @@ hr {
   flex-wrap: wrap;
   gap:20px;
   align-items: center;
+  padding: 10px 0px 20px 0px;
   justify-content: center;
 }
 
@@ -254,14 +260,34 @@ hr {
   grid-template-columns: repeat(2,1fr);
   gap:20px;
   background-color: inherit;
-  /* padding: 40px; */
-  padding-top: 40px;
+  padding: 0 20px;
   border-radius: 2px;
+  height: 70vh;
+  overflow-y: scroll;
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: white transparent; /* Firefox */
+  &::-webkit-scrollbar {
+    height: 4px;
+  }
+  -ms-overflow-style: none; /* IE 10+ */
+  &::-webkit-scrollbar {
+    width: 4px; /* Width of scrollbar */
+  }
+  &::-webkit-scrollbar-track {
+    background-color: transparent; /* Track color */
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: white; /* Thumb color */
+    border-radius: 8px; /* Rounded corners */
+  }
 }
 
 .experience_content {
   gap:20px;
   width: 100%;
+  height: 33vh;
+  overflow-x: scroll;
+  max-height: max-content;
   border-style: dashed;
   border-width:medium;
   border-color: aliceblue;
@@ -331,6 +357,9 @@ ul {
   font-family: 'minecraft';
   padding: 10px 15px 10px 15px;
   width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .social-navbar {
@@ -433,9 +462,11 @@ ul {
     overflow-y: scroll;
     scroll-snap-type: none;
     scroll-behavior: smooth;
+    height: auto;
   }
   section {
     scroll-snap-align: none;
+    height: auto;
   }
   .floating-button {
     display:block;
@@ -493,6 +524,11 @@ ul {
   }
   .experience_container {
     grid-template-columns: repeat(1,1fr);
+    height: auto;
+    padding: 40px 0px 0px 0px;
+  }
+  .experience_content {
+    height: auto;
   }
   .title_box {
     flex-direction: column;
