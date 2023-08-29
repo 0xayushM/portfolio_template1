@@ -3,9 +3,10 @@ import React, { FC, ReactNode, useRef } from 'react';
 interface Props {
   children: ReactNode;
   tooltip: string;
+  section: string;
 }
 
-const ToolTip: FC<Props> = ({ children, tooltip }: Props): JSX.Element => {
+const ToolTip: FC<Props> = ({ children, tooltip, section }: Props): JSX.Element => {
   const tooltipRef = useRef<HTMLSpanElement>(null);
   const container = useRef<HTMLDivElement>(null);
 
@@ -17,7 +18,7 @@ const ToolTip: FC<Props> = ({ children, tooltip }: Props): JSX.Element => {
       {children}
       <span
         ref={tooltipRef}
-        className='invisible group-hover:visible opacity-0 group-hover:opacity-100 transition p-1 rounded absolute top-full mt-2 whitespace-nowrap transform -translate-y-full md:-translate-x-1/2 left-1/2'
+        className={`invisible group-hover:visible opacity-0 group-hover:opacity-100 transition p-1 rounded absolute mt-2 whitespace-nowrap transform -translate-y-0 -translate-x-1/2 left-1/2 ${section === 'projects' ? "top-[-200%]" : "top-full"}`}
       >
         {tooltip}
       </span>

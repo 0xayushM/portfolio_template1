@@ -11,7 +11,7 @@ const Skills = () => {
                 <div className="sub_container">
                     {skillsData.data.map(skill => (
                         <div className="icon_container" key={skill.name}>
-                            <ToolTip tooltip={skill.name}>
+                            <ToolTip section='skills' tooltip={skill.name}>
                             <Image className="image" src={skill.image} height={skill.height} width={skill.width} alt={skill.alt} data-tooltip={skill.name} />
                             </ToolTip>
                         </div>

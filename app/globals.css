@@ -85,6 +85,7 @@ section {
   background-color: transparent;
 }
 
+
 .quote {
   font-size: x-large;
   padding-top: 40px;
@@ -199,7 +200,7 @@ section {
   display: flex;
   align-items: center;
   flex-direction: row;
-  width:90%;
+  /* width:90%; */
   flex-wrap: wrap;
   /* padding: 10px 0px; */
   gap:10px;
