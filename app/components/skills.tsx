@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import skillsData from '../data/skillsData.json'; // Adjust the path based on your actual folder structure
+import ToolTip from './toolTip';
 
 const Skills = () => {
     return (
@@ -10,8 +11,9 @@ const Skills = () => {
                 <div className="sub_container">
                     {skillsData.data.map(skill => (
                         <div className="icon_container" key={skill.name}>
-                            <Image className="image" src={skill.image} height={skill.height} width={skill.width} alt={skill.alt} />
-                            <p className="skills_name">{skill.name}</p>
+                            <ToolTip tooltip={skill.name}>
+                            <Image className="image" src={skill.image} height={skill.height} width={skill.width} alt={skill.alt} data-tooltip={skill.name} />
+                            </ToolTip>
                         </div>
                     ))}
                 </div>

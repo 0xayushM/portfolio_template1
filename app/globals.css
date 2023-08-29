@@ -71,6 +71,18 @@ section {
   padding-top: 20px;
 }
 
+.tooltip_container {
+  position: relative;
+  display: inline-block;
+}
+.tooltip_container span {
+  visibility: hidden;
+  opacity: 0;
+  color: white;
+  font-family: monospace;
+  background-color: transparent;
+}
+
 .quote {
   font-size: x-large;
   padding-top: 40px;
@@ -140,6 +152,10 @@ section {
   gap: 20px;
 }
 
+.image:hover::after {
+  content: attr(data-tooltip);
+}
+
 .icon_container {
   display: flex;
   flex-direction: row;
@@ -147,8 +163,8 @@ section {
   justify-content: center;
   gap:10px;
   height: 75px;
-  border-radius: 2px;
-  border: medium dashed white;
+  /* border-radius: 2px;
+  border: medium dashed white; */
   padding: 10px 15px 10px 15px;
   background-color: inherit;
 }
@@ -477,11 +493,11 @@ ul {
   }
   .sub_container {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
   }
   .icon_container {
     display: flex;
-    height: 170px;
+    /* height: 170px; */
     text-align: center;
     flex-direction: column;
   }
