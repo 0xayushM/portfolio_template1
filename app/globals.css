@@ -8,7 +8,9 @@
 
 :root {
   --themeColor : #FBBF64;
-  --themeColorText : black;
+  --themeColor2 : white;
+  --themeTextColor : white;
+  --themeTextColor2 : black;
   --backgroundImage : url(../public/assets/background.jpg)
 }
 
@@ -62,7 +64,7 @@ section {
 
 .heading, .quote {
   display: flex;
-  color: aliceblue;
+  color: var(--themeTextColor);
   font-family: minecraft;
   font-size: xx-large;
   align-items: center;
@@ -78,7 +80,7 @@ section {
 .tooltip_container span {
   visibility: hidden;
   opacity: 0;
-  color: white;
+  color: var(--themeTextColor);
   font-family: monospace;
   background-color: transparent;
 }
@@ -105,7 +107,7 @@ section {
   padding: 40px;
   border-style: dashed;
   border-width: thick;
-  border-color: aliceblue;
+  border-color: var(--themeTextColor);
   border-radius: 2px;
 }
 
@@ -116,7 +118,7 @@ section {
   overflow-x: scroll;
   padding: 20px 0px;
   scrollbar-width: thin; /* Firefox */
-  scrollbar-color: white transparent; /* Firefox */
+  scrollbar-color: var(--themeTextColor) transparent; /* Firefox */
   &::-webkit-scrollbar {
     height: 4px;
   }
@@ -128,7 +130,7 @@ section {
     background-color: transparent; /* Track color */
   }
   &::-webkit-scrollbar-thumb {
-    background-color: white; /* Thumb color */
+    background-color: var(--themeTextColor); /* Thumb color */
     border-radius: 8px; /* Rounded corners */
   }
 }
@@ -140,7 +142,7 @@ section {
   padding-bottom: 20px;
   border-style: dashed;
   border-width: medium;
-  border-color:aliceblue;
+  border-color:var(--themeTextColor);
   border-radius: 2px;
 }
 
@@ -164,7 +166,7 @@ section {
   gap:10px;
   height: 75px;
   /* border-radius: 2px;
-  border: medium dashed white; */
+  border: medium dashed var(--themeTextColor); */
   padding: 10px 15px 10px 15px;
   background-color: inherit;
 }
@@ -208,7 +210,6 @@ section {
 .link {
   /* padding: 5px  10px; */
   font-size: x-large;
-  border-radius: 20px;
 }
 
 .skills_container {
@@ -241,13 +242,13 @@ hr {
 }
 
 .project_card {
-  color:aliceblue;
+  color:var(--themeTextColor);
 }
 
 
 .duration {
   font-family: monospace;
-  color: white;
+  color: var(--themeTextColor);
 }
 
 .filter-bar {
@@ -260,9 +261,9 @@ hr {
 }
 
 .filter-bar button {
-  background-color: white;
+  background-color: var(--themeTextColor);
   padding: 5px 15px;
-  border-radius: 20px;
+  border-radius: 2px;
   font-family: monospace;
   font-weight: bold;
   font-size: larger;
@@ -281,7 +282,7 @@ hr {
   height: 70vh;
   overflow-y: scroll;
   scrollbar-width: thin; /* Firefox */
-  scrollbar-color: white transparent; /* Firefox */
+  scrollbar-color: var(--themeTextColor) transparent; /* Firefox */
   &::-webkit-scrollbar {
     height: 4px;
   }
@@ -293,7 +294,7 @@ hr {
     background-color: transparent; /* Track color */
   }
   &::-webkit-scrollbar-thumb {
-    background-color: white; /* Thumb color */
+    background-color: var(--themeTextColor); /* Thumb color */
     border-radius: 8px; /* Rounded corners */
   }
 }
@@ -306,7 +307,7 @@ hr {
   max-height: max-content;
   border-style: dashed;
   border-width:medium;
-  border-color: aliceblue;
+  border-color: var(--themeTextColor);
   border-radius: 2px;
   padding: 20px;
 }
@@ -324,7 +325,7 @@ hr {
 }
 
 .role {
-  color: white;
+  color: var(--themeTextColor);
   font-family: monospace;
   font-size: large;
   padding: 5px 0px;
@@ -343,13 +344,13 @@ hr {
 .work_skill_name {
   background-color: rgba(240, 248, 255, 0.912);
   padding: 5px 10px;
-  border-radius: 20px;
+  border-radius: 2px;
   font-family: monospace;
   font-weight: bold;
 }
 
 .work_description {
-  color: aliceblue;
+  color: var(--themeTextColor);
   font-family : monospace;
   font-size: large;
   font-weight: lighter;
@@ -369,7 +370,7 @@ ul {
 
 .knowMore {
   background-color: var(--themeColor);
-  color: var(--themeColorText);
+  color: var(--themeTextColor2);
   font-family: 'minecraft';
   padding: 10px 15px 10px 15px;
   width: 70%;
@@ -409,12 +410,12 @@ ul {
   bottom: 20px;
   right: 20px;
   z-index: 9999;
-  background-color: black;
-  color: white;
-  border-radius: 50%;
-  border: 5px white;
-  border-width: thick;
-  border-style: dashed;
+  background-color: var(--themeColor2);
+  color: var(--themeTextColor2);
+  border-radius: 2px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 1);
+  border: 5px var(--themeTextColor2);
+  border-width: thin;
   padding: 15px;
   cursor: pointer;
   transition: background-color 0.3s;
@@ -440,7 +441,7 @@ ul {
 }
 
 .social-media-icons a {
-  color: white;
+  color: var(--themeTextColor);
   transition: color 0.3s;
 }
 
@@ -515,6 +516,11 @@ ul {
   }
   .project_description {
     font-size: large;
+  }
+  .links {
+    width: auto;
+    height: auto;
+    align-items: end;
   }
   .link {
     padding: 5px;
