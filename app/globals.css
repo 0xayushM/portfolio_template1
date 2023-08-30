@@ -156,7 +156,7 @@ section {
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
-  border: medium white dashed;
+  /* border: medium white dashed; */
   gap: 20px;
   padding: 40px;
 }
@@ -171,8 +171,12 @@ section {
   align-items: center;
   justify-content: center;
   gap:10px;
+  border: white;
+  height: 8vh;
+  border-width: thin;
+  border-style: groove;
   border-radius: 2px;
-  padding: 0px 15px 0px 15px;
+  padding: 5px 15px 5px 15px;
 }
 
 .content {
@@ -228,12 +232,6 @@ section {
   font-family: 'minecraft';
   font-size: medium;
   text-align: center;
-}
-
-.skills_name {
-  color: var(--themeColor);
-  font-family: monospace;
-  font-size: larger;
 }
 
 span {
@@ -511,7 +509,10 @@ ul {
   }
   .icon_container {
     display: flex;
-    /* height: 170px; */
+    height: auto;
+    width: auto;
+    padding: 0%;
+    border:none;
     text-align: center;
     flex-direction: column;
   }
