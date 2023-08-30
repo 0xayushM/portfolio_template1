@@ -18,7 +18,7 @@ const ToolTip: FC<Props> = ({ children, tooltip, section }: Props): JSX.Element 
       {children}
       <span
         ref={tooltipRef}
-        className={`invisible group-hover:visible opacity-0 group-hover:opacity-100 transition p-1 rounded absolute mt-2 whitespace-nowrap transform -translate-y-0 -translate-x-1/2 left-1/2 ${section === 'projects' ? "top-[-200%]" : "top-full"}`}
+        className={`invisible group-hover:visible opacity-0 group-hover:opacity-100 transition rounded absolute mt-2 whitespace-nowrap transform -translate-y-0 -translate-x-1/2 left-1/2 ${section === 'projects' ? "top-[-200%]" : "top-full"}`}
       >
         {tooltip}
       </span>

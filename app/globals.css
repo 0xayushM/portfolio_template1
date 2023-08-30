@@ -52,9 +52,14 @@ section {
   flex-direction: column;
 }
 
+.profile_section {
+  width: 100%;
+  padding: 60px 200px 40px 200px;
+}
+
 .section {
   width: 100%;
-  padding: 40px 200px 40px 200px; 
+  padding: 20px 200px 20px 200px; 
 }
 .car_section {
   width: 100%;
@@ -70,7 +75,6 @@ section {
   align-items: center;
   justify-content: center;
   padding: 20px 20px;
-  padding-top: 20px;
 }
 
 .tooltip_container {
@@ -152,7 +156,9 @@ section {
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
+  border: medium white dashed;
   gap: 20px;
+  padding: 40px;
 }
 
 .image:hover::after {
@@ -165,11 +171,8 @@ section {
   align-items: center;
   justify-content: center;
   gap:10px;
-  height: 75px;
-  /* border-radius: 2px;
-  border: medium dashed var(--themeTextColor); */
-  padding: 10px 15px 10px 15px;
-  background-color: inherit;
+  border-radius: 2px;
+  padding: 0px 15px 0px 15px;
 }
 
 .content {
@@ -200,9 +203,9 @@ section {
   display: flex;
   align-items: center;
   flex-direction: row;
-  /* width:90%; */
+  width:90%;
   flex-wrap: wrap;
-  /* padding: 10px 0px; */
+  padding: 0px 10px;
   gap:10px;
   font-family: monospace;
   font-weight: bold;
@@ -460,11 +463,20 @@ ul {
   .container {
     padding: 0;
   }
+  section {
+    scroll-snap-align: none;
+    height: auto;
+  }
   .section_container {
     flex-direction: column;
   }
   .floating-button {
     display:block;
+  }
+  .experience_container {
+    grid-template-columns: repeat(1,1fr);
+    height: auto;
+    padding: 40px 0px 0px 0px;
   }
   .section, .car_section {
     padding: 20px 100px;
@@ -489,7 +501,7 @@ ul {
   .floating-button {
     display:block;
   }
-  .section, .car_section {
+  .section, .car_section, .profile_section {
     padding: 20px 30px;
     background-color: rgba(0,0,0,0);
   }

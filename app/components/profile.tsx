@@ -7,7 +7,7 @@ const Profile = () => {
 
 
     return (
-        <div className='section'>
+        <div className='profile_section'>
             <h1 className='heading'>
                 {greeting}
             </h1>
