@@ -26,7 +26,7 @@ const KnowMore = () => {
                 onClick={toggleDetails}
                 
               >
-                {showDetails ? "Hide Details" : "Know More"}
+                {showDetails ? "Let's get back " : "Explore Further "}
               </Link>
             </div>
           </section>
@@ -39,7 +39,7 @@ const KnowMore = () => {
           className="knowMore"
           onClick={toggleDetails}
         >
-          {showDetails ? "Hide Details" : "Know More"}
+          {showDetails ? "Let's get back" : "Explore Further"}
         </Link>
         )}
       </div>

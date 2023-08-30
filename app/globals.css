@@ -376,9 +376,16 @@ ul {
   font-family: 'minecraft';
   padding: 10px 15px 10px 15px;
   width: 70%;
+  border-radius: 2px;
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: transform 0.3s, color 0.3s, background-color 0.3s; 
+}
+.knowMore:hover {
+      transform: scale(1.01);
+      color: var(--themeTextColor2);
+      background-color : var(--themeColor2);
 }
 
 .social-navbar {
