@@ -24,6 +24,15 @@ const Projects = () => {
                 </p>
               </div>
               <div className="links">
+                <ToolTip section='projects' tooltip="Github">
+                  <div>
+                    {project.githubUrl && (
+                      <Link className="link" target="_blank" href={project.githubUrl}>
+                        <FaGithub />
+                      </Link>
+                    )}
+                  </div>
+                </ToolTip>
                 <ToolTip section='projects' tooltip="Youtube">
                   <div >
                     {project.videoUrl && (
@@ -38,15 +47,6 @@ const Projects = () => {
                     {project.deployedUrl && (
                       <Link className="link" target="_blank" href={project.deployedUrl}>
                         <FaGlobe />
-                      </Link>
-                    )}
-                  </div>
-                </ToolTip>
-                <ToolTip section='projects' tooltip="Github">
-                  <div>
-                    {project.githubUrl && (
-                      <Link className="link" target="_blank" href={project.githubUrl}>
-                        <FaGithub />
                       </Link>
                     )}
                   </div>

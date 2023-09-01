@@ -539,12 +539,12 @@ ul {
     font-size: large;
   }
   .links {
-    width: auto;
-    height: auto;
-    align-items: end;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
   }
   .link {
-    padding: 5px;
+    /* padding: 5px; */
   }
   .image {
     height: 50px;
