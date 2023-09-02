@@ -421,11 +421,11 @@ ul {
   z-index: 9999;
   background-color: var(--themeColor2);
   color: var(--themeTextColor2);
-  border-radius: 100% 0px 0px 0px;
+  border-radius: 70% 0px 0px 0px;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 1);
   border: 5px var(--themeTextColor2);
   border-width: thin;
-  padding: 15px;
+  padding: 20px;
   cursor: pointer;
   transition: background-color 0.3s;
 }
