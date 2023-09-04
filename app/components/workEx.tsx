@@ -5,8 +5,8 @@ import FilterBar from "./filterBar";
 import workExData from "../data/workExData.json";
 
 const WorkEx = () => {
-  const types = ["All", ...new Set(workExData.data.flatMap((item) => item.type))]; // Include "All" option
-  const [selectedType, setSelectedType] = useState<string>("All"); // Default to "All"
+  const types = ["All", ...new Set(workExData.data.flatMap((item) => item.type))]; 
+  const [selectedType, setSelectedType] = useState<string>("All"); 
 
   const filteredData = selectedType === "All" 
     ? workExData.data
