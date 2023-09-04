@@ -89,6 +89,25 @@ section {
   background-color: transparent;
 }
 
+.blog_button {
+  background-color: var(--themeColor);
+  color: var(--themeTextColor2);
+  font-family: 'minecraft';
+  padding: 10px 15px 10px 15px;
+  border-radius: 2px;
+  position: fixed;
+  right: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s, color 0.3s, background-color 0.3s; 
+}
+.blog_button:hover {
+      transform: scale(1.01);
+      color: var(--themeTextColor2);
+      background-color : var(--themeColor2);
+
+}
 
 .quote {
   font-size: x-large;
