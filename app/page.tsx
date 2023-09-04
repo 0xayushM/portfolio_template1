@@ -17,7 +17,9 @@ const Home: React.FC = () => {
       <div className='floating_button'>
         <FloatingButton />
       </div>
+      <div className='hidden md:block'>
       <BlogButton/>
+      </div>
       <section id='profile'>
         <Profile />
         <Quote />
