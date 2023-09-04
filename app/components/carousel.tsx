@@ -24,7 +24,7 @@ const ImgSlider: React.FC = () => {
   };
 
   return (
-    <div className='section'>
+    <div className='section py-10'>
       <div className='car_section'>
         <div className='carousel_section'>
           <Carousel {...settings}>
