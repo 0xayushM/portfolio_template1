@@ -8,6 +8,9 @@
 
 :root {
   --themeColor : #FBBF64;
+  --hoverColor: #ffdfae;
+  --boxShadow : #a98043;
+  --hoverBoxShadow : #e1ae62;
   --themeColor2 : white;
   --themeTextColor : white;
   --themeTextColor2 : black;
@@ -47,7 +50,7 @@ body {
 }
 section {
   scroll-snap-align: start;
-  height: 120vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
 }
@@ -93,7 +96,9 @@ section {
   background-color: var(--themeColor);
   color: var(--themeTextColor2);
   font-family: 'minecraft';
-  padding: 10px 15px 10px 15px;
+  padding: 5px 30px 5px 30px;
+  box-shadow: -5px 5px 0px 0px var(--boxShadow);
+  font-size: larger;
   border-radius: 2px;
   position: fixed;
   right: 40px;
@@ -105,8 +110,8 @@ section {
 .blog_button:hover {
       transform: scale(1.01);
       color: var(--themeTextColor2);
-      background-color : var(--themeColor2);
-
+      background-color : var(--hoverColor);
+      box-shadow: -5px 5px 0px 0px var(--hoverBoxShadow);
 }
 
 .quote {
@@ -438,7 +443,7 @@ ul {
   display: none;
   bottom: 0px;
   right:0px;
-  z-index: 9999;
+  z-index: 98;
   background-color: var(--themeColor2);
   color: var(--themeTextColor2);
   border-radius: 70% 0px 0px 0px;
@@ -534,6 +539,7 @@ ul {
   }
   .floating-button {
     display:block;
+    z-index:998;
   }
   .section, .car_section, .profile_section {
     padding: 20px 30px;
@@ -606,5 +612,26 @@ ul {
   }
   .social-navbar {
     display: none;
+  }
+  .blog_button {
+    /* position: fixed; */
+    bottom: 20px;
+    left:20px;
+
+    font-size: medium;
+    width: max-content;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 9998;
+    background-color: var(--themeColor2);
+    color: var(--themeTextColor2);
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 1);
+    border: 5px var(--themeTextColor2);
+    border-width: thin;
+    padding: 10px 20px 20px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
   }
 }
