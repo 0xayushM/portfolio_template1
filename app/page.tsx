@@ -8,6 +8,7 @@ import Projects from './components/projects';
 import KnowMore from './components/knowMore';
 import SocialNavbar from './components/socialNavbar';
 import FloatingButton from './components/floatingMenu';
+import BlogButton from './components/blogButton';
 
 const Home: React.FC = () => {
   return (
@@ -16,6 +17,7 @@ const Home: React.FC = () => {
       <div className='floating_button'>
         <FloatingButton />
       </div>
+      <BlogButton/>
       <section id='profile'>
         <Profile />
         <Quote />
