@@ -614,24 +614,11 @@ ul {
     display: none;
   }
   .blog_button {
-    /* position: fixed; */
-    bottom: 20px;
-    left:20px;
-
-    font-size: medium;
-    width: max-content;
-    display: none;
+    position: relative;
+    display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 9998;
-    background-color: var(--themeColor2);
-    color: var(--themeTextColor2);
-    border-radius: 10px;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 1);
-    border: 5px var(--themeTextColor2);
-    border-width: thin;
-    padding: 10px 20px 20px 15px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+    left:auto;
+    right: auto;
   }
 }

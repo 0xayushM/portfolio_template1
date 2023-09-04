@@ -22,6 +22,7 @@ const Home: React.FC = () => {
       </div>
       <section id='profile'>
         <Profile />
+        <div className='md:hidden flex items-center justify-center py-10'><BlogButton/></div>
         <Quote />
       </section>
       <section>
