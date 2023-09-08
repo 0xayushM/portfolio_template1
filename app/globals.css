@@ -337,6 +337,26 @@ hr {
   border-color: var(--themeTextColor);
   border-radius: 2px;
   padding: 20px;
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: rgb(0,0,0,0) transparent; /* Firefox */
+  &::-webkit-scrollbar {
+    height: 4px;
+  }
+  -ms-overflow-style: none; /* IE 10+ */
+  &::-webkit-scrollbar {
+    width: 0px; /* Width of scrollbar */
+  }
+  &::-webkit-scrollbar-track {
+    background-color: transparent; /* Track color */
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--themeTextColor); /* Thumb color */
+    border-radius: 8px; /* Rounded corners */
+  }
+}
+
+.experience_content::-webkit-content {
+  display: none;
 }
 
 .title_box {
