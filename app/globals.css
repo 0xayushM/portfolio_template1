@@ -259,7 +259,7 @@ section {
   text-align: center;
 }
 
-span {
+.wordLink {
   font-weight: bolder;
   color: var(--themeColor);
 }
