@@ -28,9 +28,9 @@ const KnowMore = () => {
             <section id="workEx">
               <WorkEx />
             </section>
-            <section>
+            <section className="flex w-full flex-col items-center justify-evenly">
               <Carousel />
-              <div className="knowMore_section">
+              <div className="knowMore_section w-full">
                 <Link
                   href="#profile"
                   className={`knowMore ${showDetails ? "block" : "hidden"}`}
