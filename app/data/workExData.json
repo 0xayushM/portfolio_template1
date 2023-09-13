@@ -1,70 +1,95 @@
 {
-  "heading": "Work Experience",
-  "data": [
-    {
-      "organization": "Org 1,2",
-      "duration": "month year - month year",
-      "skills": ["Skill1", "Skill2"],
-      "role": "Role in the company",
-      "description": ["Description about the work during your internship."],
-      "type": ["type1", "type2"]
-    },
-    {
-      "organization": "Org 1,3",
-      "duration": "month year - month year",
-      "skills": ["Skill1", "Skill2", "Skill3", "Skill4", "Skill5"],
-      "role": "Role in the company",
-      "description": [
-        "<highlight>Description</highlight> about the work during your internship.",
-        "Description about the work during your internship.",
-        "Description about the work during your internship.",
-        "Description about the work during your internship.",
-        "Description about the work during your internship.",
-        "Description about the work during your internship."
-      ],
-      "type": ["type1", "type3"]
-    },
-    {
-      "organization": "Org 3",
-      "duration": "month year - month year",
-      "skills": ["Skill1", "Skill2"],
-      "role": "Role in the company",
-      "description": ["Description about the work during your internship."],
-      "type": ["type3"]
-    },
-    {
-      "organization": "Org 2,4",
-      "duration": "month year - month year",
-      "skills": ["Skill1", "Skill2", "Skill3", "Skill4"],
-      "role": "Role in the company",
-      "description": [
-        "Description about the work during your internship.",
-        "Another <highlight>description</highlight> line with a link."
-      ],
-      "type": ["type2", "type4"]
-    },
-    {
-      "organization": "Org 1",
-      "duration": "month year - month year",
-      "skills": ["Skill1", "Skill2"],
-      "role": "Role in the company",
-      "description": ["Description about the work during your internship."],
-      "type": ["type1"]
-    },
-    {
-      "organization": "Org 3,4",
-      "duration": "month year - month year",
-      "skills": ["Skill1", "Skill2", "Skill3", "Skill4"],
-      "role": "Role in the company",
-      "description": [
-        "Description about the work during your internship.",
-        "One more <highlight>description</highlight> line with a link."
-      ],
-      "type": ["type4", "type3"]
-    }
-  ],
-  "links": {
-    "Description": "/description-link",
-    "description": "/description-link"
-  }
+  "heading":"Work Experience",
+    "data" : [
+        {
+            "organization" : "Org 1,2",
+            "duration" : "month year - month year",
+            "skills" : [
+                "Skill1",
+                "Skill2"
+            ],
+            "role":"Role in the company",
+            "description" : [
+                "Description about the work during your internship."
+            ],
+            "type" : ["type1", "type2"]
+        },
+        {
+            "organization" : "Org 1,3",
+            "duration" : "month year - month year",
+            "skills" : [
+                "Skill1",
+                "Skill2",
+                "Skill3",
+                "Skill4",
+                "Skill5"
+            ],
+            "role":"Role in the company",
+            "description" : [
+                "<highlight>Description</highlight> about the work during your internship.",
+                "Description about the work during your internship.",
+                "Description about the work during your internship.",
+                "Description about the work during your internship.",
+                "Description about the work during your internship.",
+                "Description about the work during your internship."
+            ],
+            "type" : ["type1", "type3"]
+        },
+        {
+            "organization" : "Org 3",
+            "duration" : "month year - month year",
+            "skills" : [
+                "Skill1",
+                "Skill2"
+            ],
+            "role":"Role in the company",
+            "description" : [
+                "Description about the work during your internship."
+            ],
+            "type" : ["type3"]
+        },
+        {
+            "organization" : "Org 2,4",
+            "duration" : "month year - month year",
+            "skills" : [
+                "Skill1",
+                "Skill2",
+                "Skill3",
+                "Skill4"
+            ],
+            "role":"Role in the company",
+            "description" : [
+                "Description about the work during your internship."
+            ],
+            "type" : ["type2", "type4"]
+        },
+        {
+            "organization" : "Org 1",
+            "duration" : "month year - month year",
+            "skills" : [
+                "Skill1",
+                "Skill2"
+            ],
+            "role":"Role in the company",
+            "description" : [
+                "Description about the work during your internship."
+            ],
+            "type" : ["type1"]
+        },
+        {
+            "organization" : "Org 3,4",
+            "duration" : "month year - month year",
+            "skills" : [
+                "Skill1",
+                "Skill2",
+                "Skill3",
+                "Skill4"
+            ],
+            "role":"Role in the company",
+            "description" : [
+                "Description about the work during your internship."
+            ],
+            "type" : ["type4", "type3"]
+        }
+    ]
 }
