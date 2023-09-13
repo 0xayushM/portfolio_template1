@@ -1,6 +1,7 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import websiteData from './data/websiteData.json'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,6 +17,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <title>{websiteData.title}</title>
+      <meta name='description' content={websiteData.description}/>
+      <link href={websiteData.icon} rel='icon'/>
       <body className={inter.className}>{children}</body>
     </html>
   )
