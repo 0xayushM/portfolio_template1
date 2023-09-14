@@ -3,7 +3,6 @@
 import React from 'react';
 import Profile from './components/profile';
 import Skills from './components/skills';
-import Quote from './components/quote';
 import Projects from './components/projects';
 import KnowMore from './components/knowMore';
 import SocialNavbar from './components/socialNavbar';
@@ -12,18 +11,17 @@ import BlogButton from './components/blogButton';
 
 const Home: React.FC = () => {
   return (
-    <div className='container min-h-screen'>
+    <div className='container'>
       <SocialNavbar />
       <div className='floating_button'>
         <FloatingButton />
       </div>
-      <div className='hidden md:block'>
+      <div className='blog_button_1'>
       <BlogButton/>
       </div>
-      <section id='profile'>
+      <section id='profile' className='flex flex-col items-center justify-center'>
         <Profile />
-        <div className='md:hidden flex items-center justify-center py-10'><BlogButton/></div>
-        <Quote />
+        <div className='blog_button_2 flex items-center justify-center py-10'><BlogButton/></div>
       </section>
       <section>
         <Skills  />

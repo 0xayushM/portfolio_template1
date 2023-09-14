@@ -21,7 +21,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 * {
   margin: 0;
   padding: 0;
@@ -71,10 +70,10 @@ section {
   flex-direction: column;
 }
 
-.profile_section {
+/* .profile_section {
   width: 100%;
   padding: 60px 200px 40px 200px;
-}
+} */
 
 .section {
   width: 100%;
@@ -132,7 +131,6 @@ section {
 
 .quote {
   font-size: x-large;
-  padding-top: 40px;
 }
 
 .quote_bar {
@@ -519,6 +517,10 @@ ul {
   color: var(--themeColor);
 }
 
+.blog_button_2 {
+  display: none;
+}
+
 @media only screen and (max-width:1200px) and (min-width:1000px) {
   .section, .car_section {
     padding: 20px 150px;
@@ -535,12 +537,15 @@ ul {
   .container {
     padding: 0;
   }
-  section {
+  /* section {
     scroll-snap-align: none;
     height: auto;
+  } */
+  .quote {
+    font-size: larger;
   }
-  .section_container {
-    flex-direction: column;
+  .quote_bar {
+    font-size: 50px;
   }
   .section_container {
     gap:30px;
@@ -548,10 +553,16 @@ ul {
     padding: 0;
     border:none;
   }
+  .description {
+    width: 80%;
+  }
   .experience_container {
-    grid-template-columns: repeat(1,1fr);
-    height: auto;
+    grid-template-columns: repeat(2,1fr);
+    height: 100%;
     padding: 40px 0px 0px 0px;
+  }
+  .experience_content {
+    height: 20vh;
   }
   .section, .car_section {
     padding: 20px 100px;
@@ -563,7 +574,9 @@ ul {
 
 @media only screen and (max-width: 600px) {
   .container {
-    padding: 0;
+    padding: 20px;
+    padding-top:0px;
+    top: -10px;
     overflow-y: scroll;
     scroll-snap-type: none;
     scroll-behavior: smooth;
@@ -577,10 +590,11 @@ ul {
     display:block;
     z-index:998;
   }
-  .section, .car_section, .profile_section {
+  .section, .car_section{
     padding: 20px 30px;
     background-color: rgba(0,0,0,0);
   }
+  
   .sub_container {
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -597,7 +611,7 @@ ul {
   .section_container {
     gap:30px;
     flex-direction: column;
-    padding: 0;
+    padding: 0 40px 0 40px;
     border:none;
   }
   .project_card {
@@ -632,6 +646,10 @@ ul {
   }
   .quote {
     font-size: medium;
+    padding: 0px;
+  }
+  .quote_bar {
+    padding: 0;
   }
   .experience_container {
     grid-template-columns: repeat(1,1fr);
@@ -656,5 +674,11 @@ ul {
     justify-content: center;
     left:auto;
     right: auto;
+  }
+  .blog_button_2 {
+    display: block;
+  }
+  .blog_button_1 {
+    display: none;
   }
 }

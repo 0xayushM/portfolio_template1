@@ -1,13 +1,13 @@
 import Image from 'next/image';
 import React from 'react';
 import profileData from '../data/profileData.json';
+import Quote from './quote';
 
 const Profile = () => {
     const { greeting, profileImage, description } = profileData;
 
-
     return (
-        <div className='profile_section'>
+        <div className='h-screen flex flex-col items-center justify-center profile_section' id='profile'>
             <h1 className='heading'>
                 {greeting}
             </h1>
@@ -25,6 +25,9 @@ const Profile = () => {
                         </ul>
                     </div>
                 </div>
+            </div>
+            <div className='pt-10'>
+                <Quote/>
             </div>
         </div>
     );
