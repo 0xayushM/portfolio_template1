@@ -2,12 +2,12 @@ import Image from 'next/image';
 import React from 'react';
 import profileData from '../data/profileData.json';
 import Quote from './quote';
-
+import BlogButton from './blogButton';
 const Profile = () => {
     const { greeting, profileImage, description } = profileData;
 
     return (
-        <div className='h-screen flex flex-col items-center justify-center profile_section' id='profile'>
+        <div className='h-screen pt-10 sm:pt-0 flex flex-col items-center justify-center profile_section' id='profile'>
             <h1 className='heading'>
                 {greeting}
             </h1>
@@ -26,7 +26,9 @@ const Profile = () => {
                     </div>
                 </div>
             </div>
-            <div className='pt-10'>
+            <div className='blog_button_2 flex items-center justify-center py-10'><BlogButton/></div>
+
+            <div className='pt-0 pb-10 sm:py-10'>
                 <Quote/>
             </div>
         </div>

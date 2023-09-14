@@ -21,7 +21,6 @@ const Home: React.FC = () => {
       </div>
       <section id='profile' className='flex flex-col items-center justify-center'>
         <Profile />
-        <div className='blog_button_2 flex items-center justify-center py-10'><BlogButton/></div>
       </section>
       <section>
         <Skills  />
