@@ -5,8 +5,8 @@ import ToolTip from './toolTip';
 
 const Skills = () => {
     return (
-        <div className="section scroll_section">
-            <h1 className="heading">{skillsData.heading}</h1>
+        <div className="scroll_section">
+            <h1 className="heading ">{skillsData.heading}</h1>
             <div className="skills_container">
                 <div className="sub_container">
                     {skillsData.data.map(skill => (

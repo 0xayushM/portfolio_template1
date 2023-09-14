@@ -25,7 +25,7 @@ const KnowMore = () => {
       <AnimatePresence>
         {showDetails && (
           <>
-            <section id="workEx">
+            <section id="workEx" className="flex py-20 md:h-screen w-full flex-col items-center justify-center">
               <WorkEx />
             </section>
             <section className="flex w-full flex-col items-center justify-evenly">

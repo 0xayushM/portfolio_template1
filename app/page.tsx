@@ -8,6 +8,9 @@ import KnowMore from './components/knowMore';
 import SocialNavbar from './components/socialNavbar';
 import FloatingButton from './components/floatingMenu';
 import BlogButton from './components/blogButton';
+import WorkEx from './components/workEx';
+import Link from 'next/link';
+import Carousel from './components/carousel'
 
 const Home: React.FC = () => {
   return (
@@ -23,9 +26,13 @@ const Home: React.FC = () => {
         <Profile />
       </section>
       <section>
-        <Skills  />
-        <Projects />
-        <KnowMore />
+        <div className='h-screen'>
+          <div className='flex flex-col items-center justify-center h-screen'>
+            <Skills  />
+            <Projects />
+          </div>
+          <div className='bottom-[9vh] relative'><KnowMore/></div>
+        </div>
       </section>
     </div>
   );

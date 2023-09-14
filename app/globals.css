@@ -66,14 +66,7 @@ body {
 section {
   scroll-snap-align: start;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
 }
-
-/* .profile_section {
-  width: 100%;
-  padding: 60px 200px 40px 200px;
-} */
 
 .section {
   width: 100%;
@@ -196,7 +189,7 @@ section {
   justify-content: center;
   /* border: medium white dashed; */
   gap: 20px;
-  padding: 40px;
+  padding: 20px;
 }
 
 .image:hover::after {
@@ -657,7 +650,7 @@ ul {
     padding: 40px 0px 0px 0px;
   }
   .experience_content {
-    height: auto;
+    height: max-content;
   }
   .title_box {
     flex-direction: column;
