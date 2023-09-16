@@ -527,6 +527,8 @@ ul {
 @media only screen and (max-width:1000px) and (min-width: 600px) {
   .container {
     padding: 0;
+    scroll-snap-type: none;
+    scroll-behavior: smooth;
   }
   section {
     scroll-snap-align: none;
