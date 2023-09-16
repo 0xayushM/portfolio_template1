@@ -25,7 +25,7 @@ const KnowMore = () => {
       <AnimatePresence>
         {showDetails && (
           <>
-            <section id="workEx" className="flex z-0 py-20 md:h-screen w-full flex-col items-center justify-center">
+            <section id="work-ex" className="flex z-0 py-20 md:h-screen w-full flex-col items-center justify-center">
               <WorkEx />
             </section>
             <section className="flex w-full flex-col items-center justify-evenly">
@@ -52,7 +52,7 @@ const KnowMore = () => {
       >
         {!showDetails && (
           <Link
-            href="#workEx"
+            href="#work-ex"
             className="knowMore"
             onClick={toggleDetails}
           >
