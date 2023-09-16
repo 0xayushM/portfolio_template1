@@ -7,7 +7,7 @@ const Profile = () => {
     const { greeting, profileImage, description } = profileData;
 
     return (
-        <div className='h-screen pt-20 sm:pt-0 flex flex-col items-center justify-center profile_section' id='profile'>
+        <div className='sm:h-screen sm:pt-0 flex flex-col items-center justify-center profile_section' id='profile'>
             <h1 className='heading'>
                 {greeting}
             </h1>

@@ -13,7 +13,7 @@ const WorkEx = () => {
     : workExData.data.filter((item) => item.type.includes(selectedType));
 
   return (
-    <div className="section h-screen flex flex-col ">
+    <div className="section sm:h-screen flex flex-col ">
       <h1 className="heading">{workExData.heading}</h1>
       <FilterBar
         types={types}

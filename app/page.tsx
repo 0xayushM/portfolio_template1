@@ -16,10 +16,10 @@ const Home: React.FC = () => {
   return (
     <div className='container'>
       <SocialNavbar />
-      <div className='floating_button'>
+      <div className='floating_button z-50'>
         <FloatingButton />
       </div>
-      <div className='blog_button_1'>
+      <div className='blog_button_1 z-50'>
       <BlogButton/>
       </div>
       <section id='profile' className='flex flex-col items-center justify-center'>
@@ -31,7 +31,7 @@ const Home: React.FC = () => {
             <Skills  />
             <Projects />
           </div>
-          <div className='bottom-[9vh] relative'><KnowMore/></div>
+          <div className='sm:bottom-[9vh] relative'><KnowMore/></div>
         </div>
       </section>
     </div>

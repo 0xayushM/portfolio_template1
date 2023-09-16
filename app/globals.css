@@ -470,14 +470,13 @@ ul {
   display: none;
   bottom: 0px;
   right:0px;
-  z-index: 98;
   background-color: var(--themeColor2);
   color: var(--themeTextColor2);
   border-radius: 70% 0px 0px 0px;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 1);
   border: 5px var(--themeTextColor2);
   border-width: thin;
-  padding: 20px;
+  padding: 15px;
   cursor: pointer;
   transition: background-color 0.3s;
 }
@@ -489,12 +488,11 @@ ul {
 /* social-media-icons.css */
 .social-media-icons {
   position: fixed;
-  bottom: 80px;
-  right: 20px;
+  bottom: 60px;
+  right: 10px;
   display: flex;
   flex-direction: column;
   gap: 20px;
-  z-index: 9998;
   background-color: var(--themeTextColor2);
   padding: 10px;
   border-radius: 6px;
@@ -530,10 +528,10 @@ ul {
   .container {
     padding: 0;
   }
-  /* section {
+  section {
     scroll-snap-align: none;
     height: auto;
-  } */
+  }
   .quote {
     font-size: larger;
   }
@@ -559,7 +557,6 @@ ul {
   }
   .section, .car_section {
     padding: 20px 100px;
-    flex-wrap: wrap;
     background-color: rgba(0,0,0,0);
   }
 }
@@ -650,7 +647,7 @@ ul {
     padding: 40px 0px 0px 0px;
   }
   .experience_content {
-    height: max-content;
+    height: auto;
   }
   .title_box {
     flex-direction: column;
